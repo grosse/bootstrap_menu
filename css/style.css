@@ -1,0 +1,11 @@
+body {
+	background-color: #f0ffff;
+}
+
+#header-nav {
+	background-color: #f11fff;
+}
+
+.navbar-brand {
+	text-align: left;
+}
