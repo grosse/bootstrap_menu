@@ -3,9 +3,30 @@ body {
 }
 
 #header-nav {
-	background-color: #f11fff;
+  background-color: #f11fff;
+  border-radius: 0;
+  border: 0;
 }
+
+
 
 .navbar-brand {
 	text-align: left;
 }
+
+div#dropdown {
+	clear: left;
+}
+
+h1 {
+	
+	clear: both;
+}
+
+div.tall {
+	height:1000px;
+	background: #827252;
+
+
+}
+
