@@ -2,12 +2,19 @@ body {
 	background-color: #f0ffff;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 #header-nav {
   background-color: #f11fff;
   border-radius: 0;
   border: 0;
 }
 
+a {
+	text-align: bottom;
+}
 
 
 .navbar-brand {
@@ -19,14 +26,18 @@ div#dropdown {
 }
 
 h1 {
-	
+
 	clear: both;
 }
 
-div.tall {
-	height:1000px;
-	background: #827252;
+div.info {
+
+	padding: 10px;
 
 
 }
 
+div.info > div {
+	background: #827252;
+	height: 700px;
+}
