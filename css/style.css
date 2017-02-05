@@ -7,13 +7,13 @@ body {
 }
 
 #header-nav {
-  background-color: #ce8132;
-  border-radius: 0;
-  border: 0;
+	background-color: #ce8132;
+  	border-radius: 0;
+  	border: 0;
 }
 li.divider {
 	border-bottom: 1px solid;
-	  border-color: black;
+    border-color: black;
 }
 
 
@@ -31,7 +31,6 @@ div#dropdown {
 }
 
 h1 {
-
 	clear: both;
 }
 
@@ -39,14 +38,12 @@ div.info {
 	padding: 10px;
 }
 
-
 div.info > div {
 	background: #878683;
 	height: 700px;
 }
 
 @media(min-width: 992px) {
-
   div.info > div {
   	height: 1000px;
   }
