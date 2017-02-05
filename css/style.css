@@ -7,20 +7,25 @@ body {
 }
 
 #header-nav {
-  background-color: #f11fff;
+  background-color: #ce8132;
   border-radius: 0;
   border: 0;
 }
-
-a {
-	text-align: bottom;
+li.divider {
+	border-bottom: 1px solid;
+	  border-color: black;
 }
+
 
 
 .navbar-brand {
 	text-align: left;
 }
 
+#nav-list {
+    margin-bottom: 0px;
+	margin-top: 0px;
+}
 div#dropdown {
 	clear: left;
 }
@@ -31,13 +36,18 @@ h1 {
 }
 
 div.info {
-
 	padding: 10px;
-
-
 }
 
+
 div.info > div {
-	background: #827252;
+	background: #878683;
 	height: 700px;
+}
+
+@media(min-width: 992px) {
+
+  div.info > div {
+  	height: 1000px;
+  }
 }
